@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+//WE DID GREAT!
+
 function sum(sum1, sum2) {
   var mySumAgain = document.getElementById('sumTotal');
   var mySum = sum1 + sum2;
@@ -55,3 +56,5 @@ function productArray(arrayOne) {
   return array;
 }
 >>>>>>> 227aa02977150ced84cacf77063049b0f92aa925
+
+//FORKED!
