@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function sum(sum1, sum2) {
   var mySumAgain = document.getElementById('sumTotal');
   var mySum = sum1 + sum2;
@@ -15,10 +16,12 @@ function sumAgain(var1, var2) {
   return var1 + var2;
 }
 function multiplyAgain(var1, var2) {
+
   return var1 * var2;
 }
 function sumAndMultiply(var1, var2, var3) {
   var array = [];
+
   var sumMultiplyAgain = document.getElementById('sumMultiply');
   array.push(sumAgain(sumAgain(var1,var2),var3));
   array.push(multiplyAgain(multiplyAgain(var1,var2),var3));
@@ -46,3 +49,9 @@ function productArray(arrayOne) {
   productArrayAgain.textContent = 'The numbers ' + arrayOne + ' have a product of ' + product;
   return product;
 }
+=======
+  array.push(sum(sum(var1,var2),var3));
+  array.push(multiply(multiply(var1,var2),var3));
+  return array;
+}
+>>>>>>> 227aa02977150ced84cacf77063049b0f92aa925
